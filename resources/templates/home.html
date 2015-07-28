@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="ui grid">
+  <div class="row">
+    <div class="center aligned column">
+      <button id="btn-download" class="ui primary large icon button" type="button">Download<i class="download icon"></i></button>
+      <p class="progress">あと<span>0</span>秒</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block page-scripts %}
+<script src="/js/example.js"></script>
+{% endblock %}
